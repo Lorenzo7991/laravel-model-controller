@@ -14,5 +14,5 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', HomeController::class)->name('movies');
+Route::get('/', HomeController::class)->name('home');
 
